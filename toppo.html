@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コメント流し動画</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ニコニコ動画 (Re:Re:復活)</div>
+        <div class="notice">ニコニコ動画は復活しました。</div>
+    </header>
+    <div class="video-section">
+        <div class="video-container">
+            <video id="video" controls>
+                <source src="risako.MOV" type="video/mp4">
+                お使いのブラウザは動画をサポートしていません。
+            </video>
+            <div class="comment-container" id="comment-container"></div>
+        </div>
+    </div>
+    <div class="comment-input">
+        <input type="text" id="comment-input" placeholder="コメントを入力">
+        <button id="submit-comment">投稿</button>
+    </div>
+    <div class="video-info">
+      <h1>とっぽ誕生日おめでとう！！</h1>
+      <p>投稿者: 青葉ひなり: 2024/07/03  再生: 78.8万  コメント: 2.9万  マイリスト: 2.2万</p>
+  </div>
+  <section class="related-videos">
+    <h2>関連動画</h2>
+    <div class="video-grid">
+        <div class="video-card" onclick="window.location.href='toppo.html'">
+            <div class="img-wrapper">
+                <img src="rokuura_thumbnail.png" alt="サムネイル">
+            </div>
+            <div class="video-details">
+                <h3>ろくうら誕生日おめでとう！！ / 八木ひなた</h3>
+                <p>2024/07/21</p>
+            </div>
+        </div>
+        <div class="video-card" onclick="window.location.href='toppo.html'">
+            <div class="img-wrapper">
+                <img src="rokuura_thumbnail.png" alt="サムネイル">
+            </div>
+            <div class="video-details">
+                <h3>ろくうら誕生日おめでとう！！ / 八木ひなた</h3>
+                <p>2024/07/21</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
