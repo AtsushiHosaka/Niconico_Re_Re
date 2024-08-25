@@ -69,7 +69,7 @@ function randomComment() {
     const randomText = comments[randomIndex];
     createComment(randomText);
 
-    const randomInterval = Math.random() * 2500 + 500; // 0.1秒から2.1秒のランダムな間隔
+    const randomInterval = Math.random() * 400 + 200; // 0.1秒から2.1秒のランダムな間隔
     setTimeout(randomComment, randomInterval);
 }
 
